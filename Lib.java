@@ -8,6 +8,7 @@ public class Lib {
 
     public void metodoAlumno1(){
        metodoAlumno2();
+       System.out.println("modificado por alumno 1"); // alumno 1
     }
 
     public void metodoAlumno2(){
@@ -19,6 +20,8 @@ public class Lib {
         System.out.println("cambio_en_master");
 
         System.out.println(" cambio_en_metodo3 ");
+        // modificaciones alumno 1
+        System.out.println("Alumno 1 inserta esta sentencia");
 
     }
     
