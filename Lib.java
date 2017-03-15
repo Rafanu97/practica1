@@ -12,6 +12,7 @@ public class Lib {
 
     public void metodoAlumno2(){
        metodo3 () ;
+       System.out.println("modificado por alumno 2"); // alumno 2
     }
 
     public void metodoComunitario(){
@@ -19,6 +20,8 @@ public class Lib {
         System.out.println("cambio_en_master");
 
         System.out.println(" cambio_en_metodo3 ");
+        // modificaciones alumno 2
+        System.out.println("Alumno 2 inserta esta sentencia");
 
     }
     
